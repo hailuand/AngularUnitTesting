@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'angular#1.5.8' ]
+2 info using npm@2.14.2
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /Users/andreashailu/Desktop/movie-app/package.json
+6 warn package.json movie-app@1.0.0 No description
+7 warn package.json movie-app@1.0.0 No repository field.
+8 warn package.json movie-app@1.0.0 No README data
+9 verbose installManyTop reading scoped package data from /Users/andreashailu/Desktop/movie-app/node_modules/bower/package.json
+10 verbose installManyTop reading scoped package data from /Users/andreashailu/Desktop/movie-app/node_modules/jasmine-core/package.json
+11 verbose installManyTop reading scoped package data from /Users/andreashailu/Desktop/movie-app/node_modules/karma/package.json
+12 verbose installManyTop reading scoped package data from /Users/andreashailu/Desktop/movie-app/node_modules/karma-chrome-launcher/package.json
+13 verbose installManyTop reading scoped package data from /Users/andreashailu/Desktop/movie-app/node_modules/karma-jasmine/package.json
+14 verbose installManyTop reading scoped package data from /Users/andreashailu/Desktop/movie-app/node_modules/karma-phantomjs-launcher/package.json
+15 verbose readDependencies loading dependencies from /Users/andreashailu/Desktop/movie-app/package.json
+16 silly cache add args [ 'angular#1.5.8', null ]
+17 verbose cache add spec angular#1.5.8
+18 silly cache add parsed spec { raw: 'angular#1.5.8',
+18 silly cache add   scope: null,
+18 silly cache add   name: null,
+18 silly cache add   rawSpec: 'angular#1.5.8',
+18 silly cache add   spec: '/Users/andreashailu/Desktop/movie-app/angular#1.5.8',
+18 silly cache add   type: 'local' }
+19 error addLocal Could not install /Users/andreashailu/Desktop/movie-app/angular#1.5.8
+20 verbose stack Error: ENOENT, open '/Users/andreashailu/Desktop/movie-app/angular#1.5.8'
+20 verbose stack     at Error (native)
+21 verbose cwd /Users/andreashailu/Desktop/movie-app
+22 error Darwin 15.4.0
+23 error argv "node" "/usr/local/bin/npm" "install" "angular#1.5.8"
+24 error node v0.12.7
+25 error npm  v2.14.2
+26 error path /Users/andreashailu/Desktop/movie-app/angular#1.5.8
+27 error code ENOENT
+28 error errno -2
+29 error enoent ENOENT, open '/Users/andreashailu/Desktop/movie-app/angular#1.5.8'
+29 error enoent This is most likely not a problem with npm itself
+29 error enoent and is related to npm not being able to find a file.
+30 verbose exit [ -2, true ]
