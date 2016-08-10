@@ -3,24 +3,14 @@
  */
 
 angular.module('omdb', [])
-    .factory('omdbApi', function($http, $q){
+    .factory('omdbApi', function($http){
         var baseUrl = 'http://www.omdbapi.com/?v=1&';
         var service = {
             search: function(query){
-                var deferred = $q.defer();
-                return $http.get(baseUrl + 's=' + encodeURIComponent(query))
-                    .success(function(data){
-                        deferred.resolve(data);
-                    });
-                return deferred.promise();
+                return $http.get(baseUrl + 's=' + encodeURIComponent(query));
             },
             find: function(movieId){
-                var deferred = $q.defer();
                 return $http.get(baseUrl + 'i=' + encodeURIComponent(movieId))
-                    .success(function(data){
-                        deferred.resolve(data);
-                    });
-                return deferred.promise();
             }
         };
 
